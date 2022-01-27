@@ -32,6 +32,6 @@ public abstract class Game {
     public abstract void play(); // figure out how poker works first lmao
 
 
-    public abstract void declareWinner();
+    public abstract void declareWinner(); //last thing that gets called before program exists
 
 }
