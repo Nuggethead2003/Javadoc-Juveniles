@@ -1,4 +1,4 @@
-package Poker.ca.sheridancollege.project;
+package ca.sheridancollege.project;
 
 public class Card{
     

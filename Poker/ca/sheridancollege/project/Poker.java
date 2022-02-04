@@ -1,4 +1,4 @@
-package Poker.ca.sheridancollege.project;
+package ca.sheridancollege.project;
 class Poker extends Game{
     public Poker(String name) {
         super(name);

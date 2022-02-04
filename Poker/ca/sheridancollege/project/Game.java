@@ -1,4 +1,4 @@
-package Poker.ca.sheridancollege.project;
+package ca.sheridancollege.project;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ public abstract class Game {
         this.name = name;
         players = new ArrayList<Player>();
     }
-
+    
     
     public String getName() {
         return name;
