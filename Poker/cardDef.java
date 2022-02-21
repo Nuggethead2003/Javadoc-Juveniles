@@ -1,6 +1,3 @@
-package ca.sheridancollege.project;
-
-
     enum suite{
         SPADES,
         HEARTS,
