@@ -11,7 +11,6 @@ public class GroupOfCards {
         this.size = size;
         makeDeck(cards = new ArrayList<Card>());
         shuffle();
-        
     }
 
     
