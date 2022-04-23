@@ -4,5 +4,7 @@ public class TestClass {
    public static void main(String[] args) {
        Deck dick = new Deck();
        dick.printDeckOfCards();
+       System.out.println(dick.draw());
+       
    } 
 }
