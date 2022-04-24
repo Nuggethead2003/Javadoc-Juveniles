@@ -18,13 +18,21 @@ public class Card {
     private int cardNum;
     private Enums.COLOR color;
     private Enums.SUIT suit;
+    private boolean joker;
 
     public Card(int cardNum, Enums.SUIT suit,Enums.COLOR color){
         this.cardNum = cardNum;
         this.color = color;
         this.suit = suit;
-
+        this.joker = false;
         
+    }
+
+    public Card(boolean joker){
+        this.joker = joker;
+        this.cardNum = -1;
+        this.color = null;
+        this.suit = null;
     }
 
     public int getCardNum() {
@@ -45,7 +53,10 @@ public class Card {
 
     @Override
     public String toString() {
+        if(!joker)
         return color + ", " + cardNum + " of " + suit;
+        else
+        return "Joker";
     }
     
 

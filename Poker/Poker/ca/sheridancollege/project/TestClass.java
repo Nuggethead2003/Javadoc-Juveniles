@@ -2,9 +2,7 @@ package Poker.ca.sheridancollege.project;
 
 public class TestClass {
    public static void main(String[] args) {
-       Deck dick = new Deck();
-       dick.printDeckOfCards();
-       System.out.println(dick.draw());
-       
+       Poker game = new Poker("Game 1");
+       game.play();
    } 
 }
